@@ -1,5 +1,10 @@
 
-squares = (x * x for x in range(1, 6))
+from time import sleep
 
-for num in squares:
-    print(num)
+para ="some content"
+
+#declare a paragraph and print the paragraph in a typing style using generator
+for char in para:
+    sleep(0.1)
+    print(char, end='', flush=True) 
+
