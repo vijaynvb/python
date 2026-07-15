@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(
-    level=logging.DEBUG
+    level=logging.ERROR
 )
 
 logging.debug("Debug Message")
